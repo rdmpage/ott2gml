@@ -27,7 +27,7 @@ CREATE TABLE `taxonomy` (
 
 Load taxonomy.tsv into MySQL. File is tab and pipe delimited (sigh).
 
-
+![Why](https://github.com/rdmpage/ott2gml/raw/master/images/34900495.jpg)
 
 ```
 LOAD DATA INFILE ‘/Users/rpage/taxonomy.tsv’ 
