@@ -30,7 +30,7 @@ Load taxonomy.tsv into MySQL. File is tab and pipe delimited (sigh).
 ![Why](https://github.com/rdmpage/ott2gml/raw/master/images/34900495.jpg)
 
 ```
-LOAD DATA INFILE ‘/Users/rpage/taxonomy.tsv’ 
+LOAD DATA INFILE "/Users/rpage/taxonomy.tsv’ 
 INTO TABLE taxonomy 
 FIELDS TERMINATED BY ‘\t|\t’ 
 LINES TERMINATED BY ‘\t|\t\n’
@@ -38,4 +38,6 @@ IGNORE 1 LINES
 (uid,parent_uid,name,rank,sourceinfo,uniqname,flags);
 ```
 
+## Subtree
 
+In the file tree.php set $name to be the root of the subtree (e.g., “Cetacea”), then run php tree.php to create a GML file.

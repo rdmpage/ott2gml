@@ -215,24 +215,10 @@ function traverse($name)
 }
 
 
-	
-//$name = 'Alpheidae';
-$name = 'Pinnotheridae';
-//$name = 'Primates';
-//$name = 'Hominidae';
-//$name = 'Alpheoidea';
-//$name = 'Anura';
-//$name = 'Decapoda';
-//$name = 'Reptilia';
-//$name = 'Squamata';
-
-//$name = 'Mammalia';
-
 $name = 'Cetacea';
 
 
 traverse($name);
-
 
 
 
